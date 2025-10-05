@@ -1,125 +1,191 @@
-✨ Fundo Mágico
+🇧🇷 **Versão em Português**
 
-🇧🇷 Versão em Português
+Fundo Mágico é uma aplicação web que gera backgrounds animados para sites, usando IA para criar animações CSS únicas a partir da descrição do usuário.
 
-Fundo Mágico é um gerador de backgrounds animados para sites, utilizando inteligência artificial para criar animações CSS únicas a partir de uma descrição do usuário.
+---
 
-🚀 Funcionalidades
+## 🚀 Funcionalidades
 
-Gera backgrounds animados com base na descrição do usuário
+* **Gerar Backgrounds Animados:** Cria fundos a partir de uma descrição do usuário.
+* **Preview ao Vivo:** Veja a animação diretamente na página.
+* **Código HTML/CSS:** Código pronto para uso imediato.
+* **Automação:** Integração com n8n e Google Gemini para automação de workflow.
 
-Mostra o preview do fundo diretamente na página
+---
 
-Exibe o código HTML e CSS gerado para uso imediato
+## 🛠️ Tecnologias Utilizadas
 
-Integração com n8n e Google Gemini para geração automatizada do conteúdo
+* **HTML5** e **CSS3:** Estrutura e estilização da interface.
+* **JavaScript (ES6+):** Lógica e manipulação de animações.
+* **n8n:** Automação de workflows.
+* **Google Gemini API:** Geração de conteúdo com IA.
 
-🛠️ Tecnologias Utilizadas
+---
 
-HTML5, CSS3, JavaScript
+## 📂 Estrutura do Projeto
 
-n8n (Automação de workflow)
+```
+├── src
+│   ├── css
+│   │   ├── reset.css            # Reset para estilos globais
+│   │   └── style.css            # Estilo principal da aplicação
+│   ├── js
+│   │   ├── index.js             # Script principal
+│   │   └── helper.js            # Funções auxiliares
+│   └── ...
+├── images
+│   └── bg.JPG
+├── index.html
+└── README.md
+```
 
-Google Gemini API
+---
 
-📂 Estrutura do Projeto
+## 📖 Como Usar
 
-/src
-  /css
-    reset.css
-    style.css
-    responsive.css
-  /js
-    index.js
-/images
-  bg.JPG
-index.html
-README.md
+### 1. Pré-requisitos
 
+* Instale [Node.js](https://nodejs.org/) ou use uma extensão como **Live Server** no VS Code.
 
-📖 Como Usar
+### 2. Clonar o Repositório
 
-Abra o site
+```bash
+git clone https://github.com/seu-usuario/fundo-magico.git
+cd fundo-magico
+```
 
-Digite a descrição do background que deseja no campo fornecido
+### 3. Abrir o Projeto
 
-Clique em Gerar Background Mágico
+* Abra o arquivo `index.html` no navegador ou use **Live Server** para visualizar localmente.
 
-Veja a animação no preview e copie o HTML/CSS gerado para seu projeto
+---
 
-🚧 Melhorias Futuras
+## 🌟 Funcionalidades Implementadas
 
-Adicionar opções de cores personalizadas
+### Gerar Backgrounds
 
-Permitir exportar o background como imagem ou vídeo
+1. Insira a descrição do background.
+2. Clique em **Gerar Background Mágico**.
+3. Veja o preview da animação e copie o HTML/CSS.
 
-Suporte a múltiplas camadas e efeitos visuais avançados
+---
 
-📄 Licença
-Open source. Livre para uso, modificação e distribuição
+## 🚧 Melhorias Futuras
 
-🧑‍💻 Autor
-Feito com 🖤 por Alexandre Federice
+* Adicionar opções de cores personalizadas.
+* Exportar backgrounds como imagens ou vídeo.
+* Suporte a múltiplas camadas e efeitos visuais avançados.
 
-🇺🇸 English Version
+---
 
-✨ Magic Background
+## 📄 Licença
 
-Magic Background is a website background generator using AI to create unique CSS animations based on user descriptions.
+Este projeto está sob a licença [MIT](LICENSE). Livre para uso, modificação e distribuição, mantendo a atribuição ao autor original.
 
-🚀 Features
+---
 
-Generates animated backgrounds based on user input
+## 🧑‍💻 Autor
 
-Displays a live preview directly on the page
+Feito com 🖤 por **Alexandre Federice**
 
-Shows the generated HTML and CSS for immediate use
+* [GitHub](https://github.com/alexandre-federice)
+* [LinkedIn](https://www.linkedin.com/in/pedro-alexandre-federice-soares/)
 
-Integration with n8n and Google Gemini for automated content generation
+---
 
-🛠️ Technologies Used
+# ✨ Magic Background
 
-HTML5, CSS3, JavaScript
+🇺🇸 **English Version**
 
-n8n (Workflow automation)
+Magic Background is a web application that generates animated backgrounds for websites, using AI to create unique CSS animations based on user input.
 
-Google Gemini API
+---
 
-📂 Project Structure
+## 🚀 Features
 
-/src
-  /css
-    reset.css
-    style.css
-    responsive.css
-  /js
-    index.js
-/images
-  bg.JPG
-index.html
-README.md
+* **Generate Animated Backgrounds:** Create backgrounds from a user-provided description.
+* **Live Preview:** See the animation directly on the page.
+* **HTML/CSS Output:** Get the code ready to use immediately.
+* **Automation:** Integration with n8n and Google Gemini for workflow automation.
 
+---
 
-📖 How to Use
+## 🛠️ Technologies Used
 
-Open the website
+* **HTML5** and **CSS3:** Structure and styling of the interface.
+* **JavaScript (ES6+):** Logic and animation handling.
+* **n8n:** Workflow automation.
+* **Google Gemini API:** AI-powered content generation.
 
-Enter the description of the background you want
+---
 
-Click Generate Magic Background
+## 📂 Project Structure
 
-Preview the animation and copy the HTML/CSS code to use in your project
+```
+├── src
+│   ├── css
+│   │   ├── reset.css            # Reset for global styles
+│   │   └── style.css            # Main application styles
+│   ├── js
+│   │   ├── index.js             # Main script
+│   │   └── helper.js            # Helper functions
+│   └── ...
+├── images
+│   └── bg.JPG
+├── index.html
+└── README.md
+```
 
-🚧 Future Improvements
+---
 
-Add custom color options
+## 📖 How to Use
 
-Allow exporting the background as an image or video
+### 1. Prerequisites
 
-Support multiple layers and advanced visual effects
+* Install [Node.js](https://nodejs.org/) or use an extension like **Live Server** in VS Code.
 
-📄 License
-Open source. Free to use, modify, and distribute
+### 2. Clone the Repository
 
-🧑‍💻 Author
-Made with 🖤 by Alexandre Federice
+```bash
+git clone https://github.com/your-username/fundo-magico.git
+cd fundo-magico
+```
+
+### 3. Open the Project
+
+* Open `index.html` in your browser or use **Live Server** to preview locally.
+
+---
+
+## 🌟 Implemented Features
+
+### Generate Backgrounds
+
+1. Enter a description for the background.
+2. Click **Generate Magic Background**.
+3. Preview the animated background and copy the HTML/CSS.
+
+---
+
+## 🚧 Future Improvements
+
+* Add color customization options.
+* Export backgrounds as images or video.
+* Support multi-layer animations and advanced visual effects.
+
+---
+
+## 📄 License
+
+This project is under the [MIT License](LICENSE). Free to use, modify, and distribute with credit to the original author.
+
+---
+
+## 🧑‍💻 Author
+
+Made with 🖤 by **Alexandre Federice**
+
+* [GitHub](https://github.com/alexandre-federice)
+* [LinkedIn](https://www.linkedin.com/in/pedro-alexandre-federice-soares/)
+
+---
